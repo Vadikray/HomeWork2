@@ -71,13 +71,16 @@
     <Compile Include="Assets\Scripts\Enemy\Enemy\Enemy.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy\WaypointMovement.cs" />
     <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerAnimation.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCoins.cs" />
-    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerJump.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Spawner\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\Spawner\Spawner.cs" />
     <Compile Include="Assets\Scripts\UI\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\UI\Heart\Heart.cs" />
     <Compile Include="Assets\Scripts\UI\Heart\HeartBar.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu.cs" />
     <Compile Include="Assets\Scripts\UI\ScoreDisplayer.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

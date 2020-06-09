@@ -42,7 +42,7 @@ public class GameOverScreen : MonoBehaviour
     private void OnRestartButtonClick()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     private void OnExitButtonClick()
